@@ -10,8 +10,18 @@ const chooseStations = function (stations) {
     if (capacity >= 20) {
       if (type === "community centre" || type === "school") {
         goodStations.push(station[0])
+<<<<<<< HEAD
      }
     }
   }
   return goodStations;
 }
+=======
+      }
+    }
+  }
+  return goodStations;
+
+}
+
+>>>>>>> 1d733a5fd1d73d113fd508dd1dfb33bf060f5f54
